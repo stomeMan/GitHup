@@ -64,7 +64,6 @@ public class HttpHelper {
 	private static final Log log = LogFactory.getLog(HttpHelper.class);
 
 	public static String doGet(String url, String charset) {
-		System.out.println("xxxxxxxxxxxxx");
 		String reInfo = "";
 		HttpClient httpclient = null;
 		InputStream in = null;
